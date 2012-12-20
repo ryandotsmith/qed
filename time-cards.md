@@ -1,6 +1,6 @@
 # Timecards
 
-The timecard highlights how time is allocated across your app's HTTP requests. Using this information, you can quickly determine if you app is correctly provisioned or if your app's performance is degrading customer experience.
+The timecard highlights how time is allocated across your app's HTTP requests. Using this information, you can quickly determine if you app is correctly provisioned and/or if your app's performance is degrading customer experience.
 
 There are 3 stages of an HTTP request on Heroku:
 
