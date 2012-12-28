@@ -2,7 +2,7 @@
 
 **qed** is a software company dedicated to the trivialization of software operations. We are founded on the principals of simplicity & positive human experience.
 
-### [time cards](https://github.com/ryandotsmith/qed/blob/master/time-cards.md)
+### [2020](https://github.com/ryandotsmith/qed/blob/master/2020.md)
 
 #### 2013-01-04 Public Alpha
 

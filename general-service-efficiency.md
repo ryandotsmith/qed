@@ -1,10 +1,10 @@
-# Timecard v2.0
+# Service Efficiency v2.0
 
-Not so long ago we introduced [timecards](https://github.com/ryandotsmith/qed/blob/master/time-cards.md) --the state of the art for visibility into your HTTP services running on Heroku. Today we are excited to anounce the general availability of timecards. Now you can get timecards on any system on any platform. You can start using timecards today.
+Not so long ago we introduced [service efficiency](https://github.com/ryandotsmith/qed/blob/master/service-efficiency.md) --the state of the art for visibility into your HTTP services running on Heroku. Today we are excited to announce the general availability of service efficiency. Now you can get service efficiency charts on any system on any platform. You can start using service efficiency today.
 
 1. Signup for a 2020 account.
 2. Grab the [log-shuttle]() binary.
-3. Pipe timecard-conventional data to log-shuttle.
+3. Pipe service efficiency data to 2020.
 
 Signup.
 
@@ -22,7 +22,7 @@ $ curl -o log-shuttle "https://static.2020.io/arch/`uname`/bin/log-shuttle"
 $ chmox +x ./log-suttle
 ```
 
-Create timecards.
+Log Service Efficiency.
 
 ```bash
 $ echo 'reqid=123 measure=my-photo-service at=enqueue'               >> logfile
@@ -31,7 +31,7 @@ $ echo 'reqid=123 measure=my-photo-service at=begin-work'            >> logfile
 $ echo 'reqid=123 measure=my-photo-service at=end-work success=true' >> logfile
 ```
 
-Send logfile to 2020.
+Send logs to 2020.
 
 ```bash
 $ cat logfile | ./log-shuttle -token="`cat 2020-password.txt`" -procid="demo"
