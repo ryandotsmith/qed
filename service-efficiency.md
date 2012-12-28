@@ -17,11 +17,11 @@ Service efficiency charts give you an immediate understanding of how customers e
 
 Here is an example:
 
-![img](http://f.cl.ly/items/410Z2I473Z0c3v172i1i/service-efficiency-page.png)
+![img](http://f.cl.ly/items/0E361Z3L0V0o340n300F/service-efficiency-page.png)
 
 
 There are a couple of things to point out:
 
 * Each bucket in the chart contains throughput with relative slope.
-* We can see that errors increase with throughput until 21:02.
+* We can see that errors increase with throughput until 21:03.
 * The current minute, 21:03 contains more throughput and less errors.
