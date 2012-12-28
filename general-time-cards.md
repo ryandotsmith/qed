@@ -2,9 +2,9 @@
 
 Not so long ago we released [timecards](), the state of the art for visibility into your HTTP services running on Heroku. Today we are excited to anounce the general availability of timecards. Now you can get timecards on any system on any platform. You can start using timecards today.
 
-# Signup for a 2020 account.
-# Grab the [log-shuttle]() binary.
-# Pipe timecard-conventional data to log-shuttle.
+1. Signup for a 2020 account.
+2. Grab the [log-shuttle]() binary.
+3. Pipe timecard-conventional data to log-shuttle.
 
 Signup.
 
