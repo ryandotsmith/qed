@@ -30,3 +30,9 @@ $ echo 'reqid=123 measure=my-photo-service at=dequeue'               >> logfile
 $ echo 'reqid=123 measure=my-photo-service at=begin-work'            >> logfile
 $ echo 'reqid=123 measure=my-photo-service at=end-work success=true' >> logfile
 ```
+
+Send logfile to 2020.
+
+```bash
+$ cat logfile | ./log-shuttle -token="`cat 2020-password.txt`" -procid="demo"
+```
