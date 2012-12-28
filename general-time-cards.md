@@ -25,8 +25,8 @@ $ chmox +x ./log-suttle
 Create timecards.
 
 ```bash
-$ echo 'reqid=123 measure=my-photo-service at=enqueue'    					 >> logfile
-$ echo 'reqid=123 measure=my-photo-service at=dequeue'    					 >> logfile
-$ echo 'reqid=123 measure=my-photo-service at=begin-work' 					 >> logfile
+$ echo 'reqid=123 measure=my-photo-service at=enqueue'               >> logfile
+$ echo 'reqid=123 measure=my-photo-service at=dequeue'               >> logfile
+$ echo 'reqid=123 measure=my-photo-service at=begin-work'            >> logfile
 $ echo 'reqid=123 measure=my-photo-service at=end-work success=true' >> logfile
 ```
