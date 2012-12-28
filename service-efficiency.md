@@ -14,3 +14,7 @@ With 2 possible outcomes:
 2. Bad response (e.g. 404, 50X)
 
 Service efficiency charts give you an immediate understanding of how customers experience your app. For example, say that you have an endpoint in your application that returns an error; furthermore, say that the error is caused by a slow database query. In this scenario, you are clogging up your capacity with a worthless request. This means that customers have to wait a long time to receive a bad experience, and customers who can potentially have a good experience are stuck behind the bad requests.
+
+Here is an example:
+
+![img](http://f.cl.ly/items/2K0a1U3B1O3t1F0i0a1J/service-efficiency-page.png)
