@@ -18,7 +18,7 @@ $ curl -X PUT -u "ryan@2020.io:$(cat 2020-password.txt)" https://api.2020.io/sig
 Download log-shuttle.
 
 ```bash
-$ curl -o log-shuttle "https://static.2020.io/arch/`uname`/bin/log-shuttle
+$ curl -o log-shuttle "https://static.2020.io/arch/`uname`/bin/log-shuttle"
 $ chmox +x ./log-suttle
 ```
 
