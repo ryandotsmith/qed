@@ -10,8 +10,8 @@ There are 3 stages of an HTTP request on Heroku:
 
 With 2 possible outcomes:
 
-1. Good response (e.g. 20X, 30X)
-2. Bad response (e.g. 404, 50X)
+1. Good response (e.g. 20x, 30x)
+2. Bad response (e.g. 40x, 50x)
 
 Service efficiency charts give you an immediate understanding of how customers experience your app. For example, say that you have an endpoint in your application that returns an error; furthermore, say that the error is caused by a slow database query. In this scenario, you are clogging up your capacity with a worthless request. This means that customers have to wait a long time to receive a bad experience, and customers who can potentially have a good experience are stuck behind the bad requests.
 
